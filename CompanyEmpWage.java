@@ -1,4 +1,5 @@
 public class CompanyEmpWage {
+    //variables
     public final String company;
     public final int empRatePerHour;
     public final int numOfWorkingDays;
@@ -6,6 +7,7 @@ public class CompanyEmpWage {
     public int totalWage;
 
     public CompanyEmpWage(String company, int empRatePerHour, int numOfWorkingDays, int maximumHoursPerMonth) {
+        //constructor
         this.company = company;
         this.empRatePerHour = empRatePerHour;
         this.numOfWorkingDays = numOfWorkingDays;
@@ -18,5 +20,4 @@ public class CompanyEmpWage {
         return "Total Employee Wage for "+company+" is "+totalWage;
     }
 }
-
 
