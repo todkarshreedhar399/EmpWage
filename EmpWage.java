@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 
-public class EmployeeWage implements IComputeWage{
+public class EmpWage implements IComputeWage{
     public static final int isPartTime=0;
     public static final int isFullTime=1;
     private ArrayList<CompanyEmpWage> empList;
