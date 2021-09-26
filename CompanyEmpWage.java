@@ -1,3 +1,4 @@
+
 public class CompanyEmpWage {
     //variables
     public final String company;
@@ -13,6 +14,7 @@ public class CompanyEmpWage {
         this.numOfWorkingDays = numOfWorkingDays;
         this.maximumHoursPerMonth = maximumHoursPerMonth;
     }
+
     public void setTotalEmpWage(int totalWage){
         this.totalWage=totalWage;
     }
